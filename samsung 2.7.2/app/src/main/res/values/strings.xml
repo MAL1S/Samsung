@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Задание 2.7.2</string>
+    <string name="title">Задание 2.7.2</string>
+    <string name="secondActivity">Регистрация</string>
+    <string name="loginHint">логин</string>
+    <string name="login">stud</string>
+    <string name="password">student123</string>
+    <string name="passwordHint">пароль</string>
+    <string name="buttonName">Войти</string>
+    <string name="registrationButtonName">Зарегистрироваться</string>
+    <string name="positiveAnswer">Верно</string>
+    <string name="negativeAnswer">Вы ошиблись в логине или пароле</string>
+    <string name="registerAsk">Хотите зарегистрироваться?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="missingField">"Не введены логин, либо пароль</string>
+</resources>
