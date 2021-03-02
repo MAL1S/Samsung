@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
             return bitmap;
         }
 
-        @RequiresApi(api = Build.VERSION_CODES.KITKAT)
         @Override
         protected void onPostExecute(Bitmap image) {
             imageView.setImageBitmap(image);
