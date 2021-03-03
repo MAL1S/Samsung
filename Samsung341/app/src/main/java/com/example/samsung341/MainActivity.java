@@ -54,10 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Bitmap doInBackground(String... urls) {
-            String url = urls[0];
+            String path = urls[0];
             Bitmap bitmap = null;
             try {
-                bitmap = BitmapFactory.decodeStream(new URL(url).openStream());
+                URL url = new URL(path);
+                bitmap = BitmapFactory.decodeStream(((InputStream)url.getContent()));
             } catch (IOException e) {
                 Log.e("Error", e.getMessage());
                 e.printStackTrace();
