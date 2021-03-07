@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "Samsung 3.4.1"
